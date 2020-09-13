@@ -42,7 +42,6 @@
     grid-template-columns: auto auto auto ;
     grid-gap: 10px;
     padding:10px;
-    /* background-color: coral; */
 }
 .con2{
     margin-left: 10%;
@@ -50,7 +49,6 @@
 }
 .cards{
     margin-top: 2%;
-    /* border: 2px solid steelblue; */
 }
 .cards span{
     font-size: 20px;
@@ -64,6 +62,31 @@
 .img{
     width: 387.788px;
     height: 200px;
-    /* border: 2px solid steelblue; */
     background-color: black;
+}
+@media screen and (max-width:720px){
+    /* *{
+        display: none;
+    } */
+    .con1{
+        height: 350px;
+    }
+    .half1{
+        padding-top: 2%;
+        display: block;
+    }
+    .half2{
+        display: block;
+    }
+    .end{
+        width: 100%;
+        height: 50px;
+    }
+    .img{
+        width: 380px;
+    }
+    .cards{
+        margin-top: 5%;
+        border-bottom: 1px solid skyblue;
+    }
 }
